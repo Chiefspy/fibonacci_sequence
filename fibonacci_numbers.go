@@ -7,7 +7,7 @@ func main() {
   max := 100
   a, b := 0 , 1
   for b <= max {
-    fmt.println(b)
+    fmt.Println(b)
     a, b = b, a + b
   }
 
